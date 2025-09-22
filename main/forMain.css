@@ -212,11 +212,12 @@ ul{
 .info__desc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 0 0 250px;
+    padding: 50px 0 0 100px;
 }
 
 .info__inner--desc{
-    max-width: 370px;
+    max-width: 300px;
+    line-height: 30px;
 }
 
 
@@ -226,13 +227,13 @@ ul{
 }
 
 .info__desc--p {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
-.info__a{
-    text-decoration: underline;
+.info__a::after{
+    content: ' →';
 }
 
 .info__img {
-    width: 40%;
+    width: 425px;
 }
